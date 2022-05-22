@@ -9,7 +9,9 @@ public class AxisBank extends HdfcBank{
 	public void empAddress() {
 		System.out.println("Madurai");
 	}
-
+ public void empState(){
+	 System.out.println("Tamilnadu");
+ }
 	public static void main(String[] args) {
 		AxisBank a = new AxisBank();
 		a.empID();
